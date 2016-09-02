@@ -1,0 +1,39 @@
+body{
+	background-color: #853962;
+}
+p{
+	color: #1496BC;
+	font-size: 50px;
+}
+#canvas{
+	width: 600px;
+	height: 600px;
+	/*background-color: white;*/
+	position: absolute;
+	top:0;
+	bottom: 0;
+    left: 0;
+    right: 0;
+	margin: auto;
+}
+
+section{
+	margin: -1%;
+	padding: 20px;
+}
+section div{
+	background-color: #1496BC;
+	float: left;
+	height: 180px;
+	margin: 1%;
+	width: 30%;
+	display: table;
+	text-align: center;
+}
+section div span{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 156px;
+	font-family: arial;
+	color: white;
+}
