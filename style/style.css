@@ -29,6 +29,8 @@ section div{
 	width: 30%;
 	display: table;
 	text-align: center;
+/*	-webkit-filter: blur(10px);
+	filter: blur(10px);*/
 }
 section div span{
 	display: table-cell;
