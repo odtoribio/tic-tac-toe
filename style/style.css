@@ -48,3 +48,18 @@ section div span{
 	width: 100%;
 	z-index: 1;
 }
+
+#overlay-content{
+	background-color: #C0C0C0;
+	bottom: 0;
+	height: 300px;
+	margin: auto;
+    left: 0;
+	position: absolute;
+    right: 0;
+	top:0;
+	width: 400px;
+	-webkit-box-shadow: 7px -2px 34px 15px rgba(0,0,0,0.67);
+    -moz-box-shadow: 7px -2px 34px 15px rgba(0,0,0,0.67);
+    box-shadow: 7px -2px 34px 15px rgba(0,0,0,0.67);
+}
