@@ -12,12 +12,20 @@ section{
 }
 section div{
 	background-color: #1496BC;
+	cursor: pointer;
 	display: table;
 	float: left;
 	height: 180px;
 	margin: 1%;
 	text-align: center;
 	width: 30%;
+	-webkit-transition: 0.25s all ease-in-out;
+}
+
+section div:hover{
+	background-color: #71c304;
+	-webkit-transform:scale(1.1,1.1);
+	-webkit-box-shadow: 5px 5px 50px;
 }
 section div span{
 	color: white;
